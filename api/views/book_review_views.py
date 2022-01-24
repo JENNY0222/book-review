@@ -33,7 +33,7 @@ def add_review(request):
         'data':
         {
             'no': book.pk,
-            'user_id': book.user.pk,
+            'user_id': book.user.pk,#可以改成任何欄位
             'name': book.name,
             'title': book.title,
             'comment': book.comment,
