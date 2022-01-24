@@ -14,7 +14,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 import dj_database_url
-from django.urls import include, path
+from django.urls import include
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -33,10 +33,6 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-urlpatterns = [
-    path('api/auth/', include('api.urls.auth_urls')),
-
-]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
