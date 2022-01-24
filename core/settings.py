@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-9za*p4v_@r8&)fj(^k+eq-+7sw64@fcw--g$s7k%*lop%uqh*1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['postgres://zvssbxzudlpzrh:40cacdb5d29417bb54eea8366f841a8fec3b55882a0b8e22ea39811c2f1a3f83@ec2-3-227-15-75.compute-1.amazonaws.com:5432/d994gmvg870dbb']
+ALLOWED_HOSTS = [' https://apibookreview.herokuapp.com/']
 
 # Application definition
 
